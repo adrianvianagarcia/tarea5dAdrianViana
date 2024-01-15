@@ -38,6 +38,17 @@ public class Tarea5dAdrianViana {
     public void setAnchura(double anchura) {
         this.anchura = anchura;
     }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Tarea5dAdrianViana{");
+        sb.append("nombre=").append(nombre);
+        sb.append(", altura=").append(altura);
+        sb.append(", anchura=").append(anchura);
+        sb.append('}');
+        return sb.toString();
+    }
     
     
 }
